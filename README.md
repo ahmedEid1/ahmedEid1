@@ -2,7 +2,7 @@
 - NOTE: Top languages does not indicate my skill level or something like that, 
     - it's a github metric of which languages i have the most code on github
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ahmedEid1)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ahmedEid1&layout=compact&theme=material-palenight")](https://github.com/anuraghazra/github-readme-stats)
 
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
