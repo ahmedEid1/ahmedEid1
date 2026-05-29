@@ -23,6 +23,6 @@ I build **LLM agents you can trust** — measured with golden evals, per-claim c
 
 3+ years shipping production software · BSc top of class (Al-Azhar) · MSc Digital Transformation (FH Dortmund) · currently going deep on LLM internals and agent architectures — transformer mechanics, RAG, evaluation, and LLMOps.
 
-**Foundations (proof of depth):** [Build a Large Language Model (From Scratch)](https://github.com/ahmedEid1/Build-a-Large-Language-Model-From-Scratch) — a **297-test from-scratch GPT in PyTorch** (tokenizer → attention → training loop → LoRA). Not just an API caller.
+**Foundations (proof of depth):** [GPT from scratch (PyTorch)](https://github.com/ahmedEid1/gpt-from-scratch) — a **297-test from-scratch GPT** (tokenizer → attention → training loop → LoRA). Not just an API caller.
 
 📫 ahmedhobeishy@gmail.com · 🔗 [ahmedhobeishy.tech](https://ahmedhobeishy.tech) · 💼 [in/ahmedhobeishy](https://linkedin.com/in/ahmedhobeishy)
