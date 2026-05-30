@@ -4,7 +4,7 @@ I build **LLM agents you can trust** — measured with golden evals, per-claim c
 
 **🔎 What I'm known for:** evaluation & agent-observability rigor — turning *"the demo worked"* into *"here's the eval score, the trace, and the CI gate."*
 
-**🌐 [ahmedhobeishy.tech](https://ahmedhobeishy.tech)** — portfolio · [**blog**](https://ahmedhobeishy.tech/blog/) on agents, evals & observability · and **AIme**, an AI stand-in you can chat with: grounded in my work, honest about what it doesn't know. ([how I built it](https://ahmedhobeishy.tech/blog/building-aime/))
+**🌐 [ahmedhobeishy.tech](https://ahmedhobeishy.tech)** — portfolio with **AIme**, an AI stand-in you can chat with: grounded in my work, honest about what it doesn't know.
 
 ### Flagship projects
 
