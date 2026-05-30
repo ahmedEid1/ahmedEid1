@@ -4,8 +4,6 @@ I build **LLM agents you can trust** — measured with golden evals, per-claim c
 
 **🔎 What I'm known for:** evaluation & agent-observability rigor — turning *"the demo worked"* into *"here's the eval score, the trace, and the CI gate."*
 
-**🌐 [ahmedhobeishy.tech](https://ahmedhobeishy.tech)** — portfolio with **AIme**, an AI stand-in you can chat with: grounded in my work, honest about what it doesn't know.
-
 ### Flagship projects
 
 - **[Lumen](https://github.com/ahmedEid1/lumen)** — open-source agentic AI tutor. Custom multi-agent orchestrator (no LangChain), course-scoped RAG over pgvector, a 9-tool **MCP server (stdio + HTTP) on the official registry**, a golden eval suite (LLM-as-judge) wired into CI, and observable per-call traces (tokens, cost, latency). Production deploy on AWS Graviton. ⭐ 66 · [live demo](https://lumen.ahmedhobeishy.tech) · [public /eval](https://lumen.ahmedhobeishy.tech/eval)
