@@ -1,28 +1,25 @@
-# Hi, I'm Ahmed 👋 — AI / Agent Engineer
+## Ahmed Hobeishy · AI Engineer for agentic systems
 
-I build **LLM agents you can trust** — measured with golden evals, per-claim citation checks, and full tracing. Based in Germany. Open to AI / Agent Engineer roles.
+I build production LLM agents and RAG systems that cite their sources, and the evals, tracing and guardrails that prove they work. 4+ years shipping production software, the last two in applied AI and LLM systems. Based in Germany.
 
-**🔎 What I'm known for:** evaluation & agent-observability rigor — turning *"the demo worked"* into *"here's the eval score, the trace, and the CI gate."*
+### Selected work
 
-### Flagship projects
+**[Ordnung](https://github.com/ahmedEid1/ordnung)**: an AI secretary for paperwork in Germany. Claude extracts quote-grounded facts from each letter; a tested rules engine turns them into deadlines with a cited receipt for every step. 97.0% of 168 held-out deadlines exactly right, 16.1 points above the same model alone, measured against three same-model baselines with bootstrap CIs. An Ask agent answers through read-only MCP tools with a claim-level citation check. [Demo](https://ahmedeid1.github.io/ordnung/)
 
-- **[Lumen](https://github.com/ahmedEid1/lumen)** — open-source agentic AI tutor. Custom multi-agent orchestrator (no LangChain), course-scoped RAG over pgvector, a 9-tool **MCP server (stdio + HTTP) on the official registry**, a golden eval suite (LLM-as-judge) wired into CI, and observable per-call traces (tokens, cost, latency). Production deploy on AWS Graviton. ⭐ 66 · [live demo](https://lumen.ahmedhobeishy.tech) · [public /eval](https://lumen.ahmedhobeishy.tech/eval)
-- **[Thoth](https://github.com/ahmedEid1/thoth)** — open-source agentic systematic literature reviews with **per-claim citation verification (`cite_check`)** that scores every cited claim against its source paper and flags hallucinated references. LangGraph agent (planner → assessor → drafter → critic → cite_check), an authenticated MCP server (OAuth 2.1 + PKCE), Langfuse + OpenTelemetry tracing, and a public eval dashboard. 676 tests. [live](https://thoth-slr.vercel.app) · [eval dashboard](https://thoth-slr.vercel.app/evals)
-- **[ForgeJudge](https://github.com/ahmedEid1/forgejudge)** — open, always-on **leaderboard + CI gate for autonomous coding agents**. A hand-rolled single-agent solver fixes real bugs from the issue text alone; every patch is scored by **execution-as-judge** (verified equivalent to the official SWE-bench grading, and cheat-resistant), every run emits a public OpenTelemetry/Langfuse trace, and a **multi-seed CI gate** blocks any regression — on a **$0** stack against a contamination-resistant, mutation-hardened golden set. A model-swap proves the harness is the deliverable (llama-3.1-8b 42% → llama-3.3-70b 83% pass@1, harness fixed). FastMCP server on the official registry. [live leaderboard](https://forgejudge.ahmedhobeishy.tech)
+**[Lumen](https://github.com/ahmedEid1/lumen)**: an open-source AI tutor. One sentence in, a course out (about 45 seconds for 10 lessons after the intake), and a course-scoped RAG tutor over pgvector that cites the lessons it retrieves. Custom multi-agent orchestrator (no framework), permission-filtered retrieval in SQL, an MCP server on the official registry, and golden eval suites with every report published, weak scores included. [Live app](https://lumen.ahmedhobeishy.tech)
 
-> The numbers are public on purpose. Thoth's dashboard shows citation precision 97% and recall 74% on the goldens scored so far, with faithfulness and coverage tracked in the open as the golden set fills out — a regression is a falsifiable public signal, not a hidden one. Lumen's /eval publishes all three suites whole, strong and weak alike (authoring 3.85/5). The point isn't a perfect score — it's that every score is measured, reproducible, and gated in CI.
+**[ForgeJudge](https://github.com/ahmedEid1/forgejudge)**: a leaderboard and CI gate for coding agents. SWE-bench-style grading on a contamination-resistant set of 18 mutation-tested tasks, with hidden tests and stricter checks than the stock grader; 162 of 162 verdicts reproduced on re-grade. Archived in September 2026. [Leaderboard](https://forgejudge.ahmedhobeishy.tech)
+
+**[Thoth](https://github.com/ahmedEid1/thoth)**: agentic literature reviews. A LangGraph agent plans, screens and drafts, then checks every cited claim before anyone reads the draft; three human-in-the-loop gates and an MCP server with OAuth 2.1.
+
+**Agents on Amazon Bedrock AgentCore**: three AWS agent systems built on Udacity's starter templates, with my own agents, prompts and evals. The largest routes to four specialist agents with parallel RAG over three Knowledge Bases. [Multi-agent RAG](https://github.com/ahmedEid1/multi-agent-ecommerce-rag) · [Runtime agent](https://github.com/ahmedEid1/agentcore-support-agent) · [Support chatbot](https://github.com/ahmedEid1/bedrock-support-chatbot)
 
 ### Stack
 
-**AI / Agents:** `LLM agents` · `RAG / pgvector` · `multi-agent orchestration` · `MCP` · `LangGraph` · `Claude API` · `prompt & context engineering`
-**Eval & Observability:** `golden evals` · `LLM-as-judge` · `cite_check` · `Langfuse` · `OpenTelemetry` · `CI regression gates`
-**Languages & Backend:** `Python` · `TypeScript` · `Java` · `FastAPI` · `Flask` · `Node.js` · `PostgreSQL` · `Redis`
-**Infra:** `Docker` · `Kubernetes` · `Helm` · `AWS` · `CI/CD`
+Python · TypeScript · Claude API · MCP · LangGraph · FastAPI · Next.js · PostgreSQL and pgvector · OpenTelemetry · Langfuse · Amazon Bedrock and AgentCore · Docker · Kubernetes
 
-### More
+### Background
 
-3+ years shipping production software · BSc top of class (Al-Azhar) · MSc Digital Transformation (FH Dortmund) · currently going deep on LLM internals and agent architectures — transformer mechanics, RAG, evaluation, and LLMOps.
+M.Sc. Digital Transformation, FH Dortmund · B.Sc. Systems and Computer Engineering, Al-Azhar University · Selected for the Linux Foundation's Open Mainframe Project mentorship
 
-**Foundations (proof of depth):** [GPT from scratch (PyTorch)](https://github.com/ahmedEid1/gpt-from-scratch) — a **297-test from-scratch GPT** (tokenizer → attention → training loop → LoRA). Not just an API caller.
-
-📫 ahmedhobeishy@gmail.com · 🔗 [ahmedhobeishy.tech](https://ahmedhobeishy.tech) · 💼 [in/ahmedhobeishy](https://linkedin.com/in/ahmedhobeishy)
+[ahmedhobeishy.tech](https://ahmedhobeishy.tech) · [LinkedIn](https://linkedin.com/in/ahmedhobeishy) · ahmedhobeishy@gmail.com
