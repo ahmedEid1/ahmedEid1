@@ -4,17 +4,17 @@ I build production LLM agents and RAG systems that cite their sources, and the e
 
 ### Selected work
 
-**[Ordnung](https://github.com/ahmedEid1/ordnung)**: an AI secretary for paperwork in Germany. Claude extracts quote-grounded facts from each letter; a tested rules engine turns them into deadlines with a cited receipt for every step. 97.0% of 168 held-out deadlines exactly right, 16.1 points above the same model alone, measured against three same-model baselines with bootstrap CIs. An Ask agent answers through read-only MCP tools with a claim-level citation check. [Demo](https://ahmedeid1.github.io/ordnung/)
+**[Ordnung](https://github.com/ahmedEid1/ordnung)**: an AI secretary for paperwork in Germany. Claude extracts the facts from each letter, a deterministic, tested rules engine computes the legal deadlines with cited sources, and a Q&A agent on MCP tools answers questions. On 168 held-out deadlines: 97.0% exactly right, +16.1 points over the same model alone. [Demo](https://ahmedeid1.github.io/ordnung/)
 
-**[Lumen](https://github.com/ahmedEid1/lumen)**: an AI course builder and tutor. One sentence in, a course out (45 to 90 seconds for 10 lessons after the intake), and a course-scoped RAG tutor over pgvector that cites the lessons it retrieves. Custom multi-agent orchestrator (no framework), permission-filtered retrieval in SQL, an MCP server on the official registry, and golden eval suites with every report published, weak scores included. It ran live on AWS in 2026; [walkthrough video and screenshots](https://github.com/ahmedEid1/lumen/tree/main/docs/demo/2026-10-30)
+**[Lumen](https://github.com/ahmedEid1/lumen)**: an AI course builder and tutor. A custom multi-agent orchestrator for course authoring and an MCP tutor, with per-user cost budgets; permission-aware RAG with checked citations and three LLM-as-judge eval suites. It ran live on AWS in 2026; [walkthrough video and screenshots](https://github.com/ahmedEid1/lumen/tree/main/docs/demo/2026-10-30)
 
-**[ForgeJudge](https://github.com/ahmedEid1/forgejudge)**: a leaderboard and CI gate for coding agents. SWE-bench-style grading on a contamination-resistant set of 18 mutation-tested tasks, with hidden tests and stricter checks than the stock grader; 162 of 162 verdicts reproduced on re-grade. Archived in 2026. [Leaderboard](https://forgejudge.ahmedhobeishy.tech)
+**[ForgeJudge](https://github.com/ahmedEid1/forgejudge)**: a public leaderboard and CI gate for autonomous coding agents: a fixed agent harness tries mutation-tested tasks with hidden tests while the model is swapped. Archived in 2026. [Leaderboard](https://forgejudge.ahmedhobeishy.tech)
 
 Also: [Thoth](https://github.com/ahmedEid1/thoth), agentic literature reviews that check every cited claim, and three [agent systems on Amazon Bedrock AgentCore](https://github.com/ahmedEid1/multi-agent-ecommerce-rag) from Udacity's Nanodegree (on its starter code).
 
 ### Stack
 
-Python · TypeScript · Claude API · MCP · LangGraph · FastAPI · Next.js · PostgreSQL and pgvector · OpenTelemetry · Langfuse · Amazon Bedrock and AgentCore · Docker · Kubernetes
+Python · TypeScript · Claude API · MCP · LangChain · LangGraph · FastAPI · Next.js · PostgreSQL · OpenTelemetry · AWS (Bedrock) · Docker · Kubernetes
 
 ### Background
 
